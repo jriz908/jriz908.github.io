@@ -1,3 +1,5 @@
+var app = angular.module('website', ['ngRoute', 'ngAnimate']);
+
 //jQuery is required to run this code
 $( document ).ready(function() {
 
