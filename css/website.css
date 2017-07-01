@@ -3,9 +3,9 @@ html, body {
   height: 100%;
 }
 
-/*::-webkit-scrollbar { 
+::-webkit-scrollbar { 
     display: none; 
-}*/
+}
 
 body { 
   background-color: rgb(238, 238, 238);
@@ -42,7 +42,7 @@ hr{
 	overflow: auto;
 	background: none;
 }
-/*
+
 section {
   box-sizing: border-box;
   min-height: 175px;
@@ -93,7 +93,7 @@ section:first-of-type {
 #projects section:nth-of-type(1) {
   background-image: url(../assets/motherboard.jpg);
 }
-*/
+
 .welcome{
   text-align:center;
   min-height: 200px;
@@ -139,7 +139,7 @@ video::-webkit-media-controls {
 video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
-/*
+
 span{
   line-height: 75vh;
 }
@@ -173,7 +173,7 @@ span{
   width: 30vmax;
   height: 30vmax;
   opacity: 0;
-  filter: alpha(opacity=0); 
+  filter: alpha(opacity=0); /* For IE8 and earlier */
   border-radius: 100%;
 }
 
@@ -253,7 +253,7 @@ span{
 #JotFormIFrame{
 	height: 750px !important;
 }
-*/
+
 #footer{
   position: relative;
   bottom: 20px;

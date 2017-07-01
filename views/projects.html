@@ -1,0 +1,15 @@
+<div id="projects" class="jumbotron" hidden>
+  <section>
+    <h1>Projects</h1>
+  </section>
+  <div class="container" ng-controller="projects-controller">
+    <div class="row">
+      <div class="col-md-4" ng-repeat="project in projects">
+        <h3> {{ project.name}} </h3>
+        <p> {{ project.desc }} </p>
+        <a ng-href="{{ project.github }}" target="_blank"><button id="github-link"><img src="assets/github_logo_white.png"></button></a>
+        <a ng-href="{{ project.link }}" target="_blank" ng-if="hasDemo(project)"><button id="demo"> Demo </button></a>
+      </div>
+    </div>
+  </div>
+</div>

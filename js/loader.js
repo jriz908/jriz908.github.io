@@ -1,16 +1,14 @@
 $(document).ready(function(){
-    $("#nav").autoHidingNavbar();	
+    $("#nav").autoHidingNavbar();
 });
 
 function setUpHome(){
     stopAnimations();
     removeAllActive();
-    document.title = 'Jacob Rizer - Software Developer'; 
+    document.title = 'Vincent Xie - Developer'; 
     $("#home-button").addClass('active');
 }
 
-
-/*
 function setUpAbout(){
     stopAnimations();
     removeAllActive();
@@ -34,7 +32,6 @@ function setUpContact(){
     setContactForm();
 }
 
-
 $(document).scroll(function() {
     if($(document).scrollTop() > 120){
         $("#scroll").fadeOut(500);
@@ -42,18 +39,17 @@ $(document).scroll(function() {
         $("#tech-container").fadeIn(1000);
     }
 });
-*/
 
 function stopAnimations(){
     $("html, body").stop(true, true);
     $("#welcome-video").stop(true, true);
     $("#index").stop(true, true);
-//$("#about").stop(true, true);
-   // $('#me').stop(true, true);
-  //  $("#about section:nth-of-type(2)").stop(true, true);
-  //  $("#tech-container").stop(true, true);
-  //  $("#projects").stop(true, true);
-  //  $("#contact").stop(true, true);
+    $("#about").stop(true, true);
+    $('#me').stop(true, true);
+    $("#about section:nth-of-type(2)").stop(true, true);
+    $("#tech-container").stop(true, true);
+    $("#projects").stop(true, true);
+    $("#contact").stop(true, true);
     $("#footer").stop(true, true);
 }
 
@@ -63,7 +59,7 @@ function removeAllActive(){
     $("#projects-button").removeClass('active');
     $("#contact-button").removeClass('active');
 }
-/*
+
 function resetAbout(){
     $("#tech-container").hide();
     $("#about").css("margin-top", "45px");

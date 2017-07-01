@@ -1,0 +1,19 @@
+<div id="about" class="jumbotron" ng-controller="about-controller" hidden>
+  <section>
+    <h1>About me!</h1>
+  </section>
+  <h2> A few words about me... </h2>
+  <img id="me" align="left" src="assets/vincent.jpg" width="352" height="354"> 
+  <p>
+    Hello, <br> 
+    &nbsp; &nbsp; My name is Vincent Xie. Welcome to my website! I am currently a junior studying computer science at Rutgers University. I started coding in middle school when I opted to take an Intro to Programming elective. I found coding fun, so I have been learning ever since. Currently, I am a software development intern at Amazon.com. My specialties mostly pertain to web development.<br>
+    &nbsp; &nbsp; My hobbies include playing video games, listening to hip-hop, and playing basketball. I also like to learn new languages such as Chinese, German and Japanese. Additionally, I enjoy playing instruments like the piano and the violin.
+  </p>
+  <h2 id="scroll"> Scroll down to see more! </h2>
+  <section hidden>
+    <h1>Technical</h1>
+  </section>
+  <div id="tech-container" class="container" hidden>
+    <div class="col-xs-4 col-centered" ng-repeat="lang in tech" ng-style="{'background-color': lang.color}"><p> {{ lang.name }} </p></div>
+  </div>
+</div>
