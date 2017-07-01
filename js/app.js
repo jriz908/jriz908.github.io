@@ -5,7 +5,7 @@ app.config(function($routeProvider, $locationProvider){
   	controller: 'home-controller',
     templateUrl: 'views/home.html'
   })
-  .when('/about',{
+  /*.when('/about',{
   	controller: 'about-controller',
   	templateUrl: 'views/about.html'
   })
@@ -16,7 +16,7 @@ app.config(function($routeProvider, $locationProvider){
   .when('/contact',{
   	controller: 'contact-controller',
   	templateUrl: 'views/contact.html'
-  })
+  })*/
   .otherwise({
     redirectTo: '/'
   });
