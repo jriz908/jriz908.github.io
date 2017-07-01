@@ -19,10 +19,10 @@ a:link {
   text-decoration: none;
 }
 
-a > img{
+/*a > img{
   margin-top: -50px;
   display: inline;
-}
+}*/
 
 hr{
   height: 5px;
