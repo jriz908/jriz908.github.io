@@ -16,8 +16,8 @@ $(document).ready(function(){
 });
 
 function setUpHome(){
-    stopAnimations();
-    removeAllActive();
+    //stopAnimations();
+    //removeAllActive();
     document.title = 'Jacob Rizer - Software Developer'; 
     $("#home-button").addClass('active');
 }
@@ -100,7 +100,7 @@ $(document).scroll(function() {
     }
 });
 */
-
+/*
 function stopAnimations(){
     $("html, body").stop(true, true);
     $("#welcome-video").stop(true, true);
@@ -130,7 +130,7 @@ function resetAbout(){
     $("#about section:nth-of-type(2)").hide();
     $("#about section:nth-of-type(2)").css("top", "150px");
 }
-*/
+
 function setContactForm(){
     if($.browser.mozilla){
         $(".mozilla-form").show();
