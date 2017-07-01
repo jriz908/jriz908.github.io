@@ -139,11 +139,11 @@ video::-webkit-media-controls {
 video::-webkit-media-controls-start-playback-button {
   display: none !important;
 }
-*/
+
 span{
   line-height: 75vh;
 }
-
+*/
 #about h2{
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   padding-left: 2vw;
