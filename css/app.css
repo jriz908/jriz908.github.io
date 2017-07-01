@@ -3,9 +3,9 @@ html, body {
   height: 100%;
 }
 
-::-webkit-scrollbar { 
+/*::-webkit-scrollbar { 
     display: none; 
-}
+}*/
 
 body { 
   background-color: rgb(238, 238, 238);
@@ -42,7 +42,7 @@ hr{
 	overflow: auto;
 	background: none;
 }
-
+/*
 section {
   box-sizing: border-box;
   min-height: 175px;
@@ -79,7 +79,7 @@ section:first-of-type {
   font-size: 8vw;
   text-shadow: 0 0 5px rgba(0,0,0,0.4);
 }
-/*
+
 #about section:nth-of-type(1) {
   background-image: url(../assets/about.jpg);
 }
@@ -143,7 +143,7 @@ video::-webkit-media-controls-start-playback-button {
 span{
   line-height: 75vh;
 }
-*/
+
 #about h2{
   font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
   padding-left: 2vw;
@@ -173,7 +173,7 @@ span{
   width: 30vmax;
   height: 30vmax;
   opacity: 0;
-  filter: alpha(opacity=0); /* For IE8 and earlier */
+  filter: alpha(opacity=0); 
   border-radius: 100%;
 }
 
@@ -214,7 +214,7 @@ span{
   color: #FFFFFF;
   font-weight: bold;
 }
-/*
+
 #github-link{
   background-color: #2980b9;
   padding-top: 0px;
