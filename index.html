@@ -19,11 +19,11 @@ Copyright (c) 2017 Jacob Rizer. All rights reserved.
       var image2 = new Image();
       image2.src = "assets/motherboard.jpg";
 	  
-	  -->
+	  
 	<script type="text/javascript">
 		var image3 = new Image();
 		image3.src = "assets/BigApple/Snapshots/Big-Apple.jpg";
-    </script> 
+    </script>--> 
   </head>
 
   <body ng-app="website">
@@ -50,6 +50,19 @@ Copyright (c) 2017 Jacob Rizer. All rights reserved.
         </div>
       </nav>
     </div> <!-- /container -->
+	
+	<div class="homepage-hero-module">
+	<div class="video-container">
+		<div class="filter"></div>
+		<video autoplay loop class="fillWidth">
+			<source src="assets/Big-Apple.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+			<source src="assets/Big-Apple.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+		</video>
+		<div class="poster hidden">
+			<img src="assets/Big-Apple.jpg" alt="">
+		</div>
+	</div>
+</div>
 
 <!--    <div ng-view class="animation"></div> -->
 
