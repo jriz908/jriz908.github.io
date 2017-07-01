@@ -1,4 +1,4 @@
-# vincentxie.com
-Source code for vincentxie.com (Does not include assets)
+# jriz908.github.io
+Source code for jriz908.github.io 
 
 This site is built using AngularJS and Bootstrap.
