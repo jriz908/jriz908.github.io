@@ -5,7 +5,7 @@ $(document).ready(function(){
 function setUpHome(){
     stopAnimations();
     removeAllActive();
-    document.title = 'Vincent Xie - Developer'; 
+    document.title = 'Jacob Rizer - Developer'; 
     $("#home-button").addClass('active');
 }
 
