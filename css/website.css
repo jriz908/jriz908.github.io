@@ -97,7 +97,7 @@ section:first-of-type {
 .welcome{
   text-align:center;
   min-height: 200px;
-  height: 100vh;
+  height: 75vh;
   color: #FFFFFF;
   font-size: 8vw;
   text-transform: uppercase;
